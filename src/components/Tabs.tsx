@@ -49,15 +49,15 @@ const Tabs = ({ activeTab, onTabChange }: TabsProps) => {
             onClick={() => onTabChange(tab.id)}
             className={`
     px-3 py-2
-    sm:px-4 sm:py-2.5
-    md:px-4 md:py-2
-    lg:px-5 lg:py-3
+    sm:px-3 sm:py-3
+    md:px-3 md:py-3
+    lg:px-3 lg:py-3
     xl:px-5 xl:py-3
     rounded-full
     text-xs
-    sm:text-md
-    md:text-sm
-    lg:text-sm
+    sm:text-xs
+    md:text-xs
+    lg:text-xs
     xl:text-sm
     flex items-center
     gap-1.5 

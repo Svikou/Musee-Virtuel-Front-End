@@ -16,8 +16,8 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen px-4">
-      <div className="bg-[#f0ede6] rounded-3xl p-6 w-full max-w-5xl  flex gap-8">
+    <div className="flex items-center justify-center px-4">
+      <div className="bg-[#f0ede6] rounded-3xl p-4 sm:p-4 md:p-6 lg:p-4 xl:p-8 w-full max-w-5xl  flex gap-8">
         {/* Img left - md+ */}
         <div className="hidden md:block w-1/2 rounded-2xl overflow-hidden">
           <Image
@@ -35,7 +35,10 @@ export default function SignupPage() {
             Sign up
           </h1>
 
-          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col gap-4 lg:gap-2"
+          >
             <div>
               <label className="text-sm font-medium text-[#2c1a0e]">
                 Name <span className="text-red-500">*</span>

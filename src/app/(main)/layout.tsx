@@ -39,7 +39,7 @@ export default function RootLayout({
           <Navigation />
         </div>
 
-        <div className="backdrop-blur-lg bg-black/10 rounded-3xl p-4 sm:p-6 md:p-8 lg:p-10 w-full  mx-auto my-4 sm:my-6 md:my-8 border-2 border-white/30 min-h-[60vh]">
+        <div className="backdrop-blur-lg bg-black/10 rounded-3xl p-4 sm:p-6 md:p-8 lg:p-8 xl:p-10 2xl:p-12 w-full  mx-auto my-4 sm:my-6 md:my-8 border-2 border-white/30 min-h-[60vh]">
           {children}
         </div>
       </div>

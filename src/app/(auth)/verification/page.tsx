@@ -41,7 +41,7 @@ export default function VerificationCodePage() {
   };
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center mx-4">
       <div className="bg-[#f0ede6] rounded-xl px-8 py-10 w-full max-w-lg shadow-sm flex flex-col my-6 mx-2 gap-8">
         {/* T + D */}
         <div className="flex flex-col gap-4 text-center mb-6">

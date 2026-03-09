@@ -32,8 +32,8 @@ export default function Home() {
       <div className="absolute inset-0" />
 
       <div className="relative z-10">
-        <main className="w-full mx-auto px-4 py-4 flex flex-col lg:flex-row gap-6 lg:gap-8">
-          <div className="flex flex-col md:flex-row gap-10 sm:gap-8 md:gap-6 lg:gap-10 xl:gap-6 2xl:gap-8">
+        <main className="w-full mx-auto px-4 py-4 lg:p-1 flex flex-col lg:flex-row gap-6 lg:gap-8">
+          <div className="flex flex-col md:flex-row gap-10 sm:gap-8 md:gap-6 lg:gap-8 xl:gap-10 2xl:gap-8">
             {/* Tabs - 1st position mobile */}
             <div className="md:hidden w-full">
               <Tabs activeTab={activeTab} onTabChange={setActiveTab} />
