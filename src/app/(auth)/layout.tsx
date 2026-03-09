@@ -5,7 +5,7 @@ export default function AuthLayout({
 }) {
   return (
     <html lang="en">
-      <body className={` relative min-h-screen  `}>
+      <body suppressHydrationWarning className={` relative min-h-screen  `}>
         <div className="px-8 md:px-16 lg:px-16">
           <div
             className="fixed inset-0 bg-repeat-y bg-top "

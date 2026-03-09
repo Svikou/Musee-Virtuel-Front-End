@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SignupPage() {
   const [form, setForm] = useState({ name: "", email: "", password: "" });
@@ -84,13 +85,14 @@ export default function SignupPage() {
                 </a>
               </p>
             </div>
-
-            <button
-              type="submit"
-              className="w-full bg-[#3D2B1F] hover:bg-[#4a3528] text-white rounded-full py-2 font-medium  transition"
-            >
-              Sign up
-            </button>
+            <Link href="/" className="font-medium text-[#2c1a0e] underline">
+              <button
+                type="submit"
+                className="w-full bg-[#3D2B1F] hover:bg-[#4a3528] text-white rounded-full py-2 font-medium  transition cursor-pointer"
+              >
+                Sign up
+              </button>
+            </Link>
           </form>
 
           <div className="flex items-center gap-3 my-5">

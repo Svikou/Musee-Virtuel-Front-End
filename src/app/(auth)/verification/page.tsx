@@ -81,11 +81,13 @@ export default function VerificationCodePage() {
         </p>
 
         {/* Bouton */}
-        <Link
-          href="/reset-password"
-          className="w-full bg-[#3D2B1F] hover:bg-[#4a3528] text-white rounded-full py-4 font-medium text-center text-base transition cursor-pointer"
-        >
-          Next
+        <Link href="/reset-password">
+          <button
+            type="submit"
+            className="w-full bg-[#3D2B1F] hover:bg-[#4a3528] text-white rounded-full py-2 font-medium transition mb-12 cursor-pointer"
+          >
+            Next
+          </button>
         </Link>
       </div>
     </div>
